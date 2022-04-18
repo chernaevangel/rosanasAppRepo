@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Account/_LayoutPage1.cshtml";
+}
+
+<h2>Login Successfully</h2>
+
+@Html.Label(Request.Cookies["username"].Value)
+
+<form action="LogOut" method="post">
+    <button type="submit">LogOut</button>
+</form>

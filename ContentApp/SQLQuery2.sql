@@ -1,0 +1,1 @@
+﻿ select * from Account where username='admin12' and password='admin12'

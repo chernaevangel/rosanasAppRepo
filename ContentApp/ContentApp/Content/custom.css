@@ -1,0 +1,35 @@
+﻿body {
+}
+
+#form-login {
+
+}
+
+#login {
+    height: 60vh;
+    background: #cedbd1;
+    padding: 0 20px;
+    margin: 100px 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 6px 0px #a5a5a5;
+    border-radius: 5px;
+}
+
+#loginButton {
+    margin-left: 76px;
+    margin-top: 10px;
+}
+
+#login h2{
+    margin-left:63px;
+}
+
+.username {
+    margin-bottom: 4px;
+}
+
+.password{
+    margin-left: 4px;
+}

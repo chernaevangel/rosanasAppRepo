@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Account/_LayoutPage1.cshtml";
+}
+
+<div id="login">
+
+    <form id="form-login" action="Verify" method="post">
+        <h2>Login</h2>
+        <div class="username">
+            <label>Username</label>
+            @Html.TextBox("username")
+        </div>
+        <div class="password">
+            <label>Password</label>
+            @Html.Password("password")
+        </div>
+        <button id="loginButton" type="submit">Login</button>
+    </form>
+</div>
